@@ -1,0 +1,14 @@
+<div class="box">
+  <div class="d-flex flex-column p-2 align-items-center">
+    <div *ngIf="move == 'Rock'">
+      <img src="assets/rock.jpg" class="opp-image"/>
+    </div>
+    <div *ngIf="move == 'Paper'">
+      <img src="assets/paper.png" class="opp-image"/>
+    </div>
+    <div *ngIf="move == 'Scissors'">
+      <img src="assets/scissors.jpg" class="opp-image"/>
+    </div>
+    <h4>{{move}}</h4>
+  </div>
+</div>

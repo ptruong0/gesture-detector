@@ -27,9 +27,12 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -102,5 +105,8 @@
       }
     }
   },
-  "defaultProject": "at-alternative-interaction-solution"
+  "defaultProject": "at-alternative-interaction-solution",
+  "cli": {
+    "analytics": "b6c0cf29-03ed-421d-913d-bba07852307c"
+  }
 }

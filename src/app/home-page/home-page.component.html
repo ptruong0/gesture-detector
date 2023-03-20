@@ -1,3 +1,22 @@
-<app-handtracker (onPrediction)="prediction($event)"></app-handtracker>
 
-<div [innerHTML]="gesture"></div>
+<h1 class="text-center my-4">Rock, Paper, Scissors</h1>
+
+<!-- timer component -->
+<app-timer [running]="running" [text]="announceText" (onStart)="start()"></app-timer>
+
+<!--  -->
+<div class="d-flex p-2 justify-content-center">
+  <div class="d-flex flex-column p-2 align-items-center">
+    <h3>Player Score: {{playerScore}}</h3>
+    <app-handtracker [move]="playerMove" (onPrediction)="prediction($event)"></app-handtracker>
+    <div [innerHTML]="gesture"></div>
+  </div>
+
+  <div class="d-flex flex-column p-2 align-items-center">
+    <h3>Opponent Score: {{opponentScore}}</h3>
+    <app-opponent [move]="opponentMove"></app-opponent>
+
+  </div>
+</div>
+
+

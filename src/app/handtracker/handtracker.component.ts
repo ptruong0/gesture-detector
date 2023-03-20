@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, ViewChild, Output, EventEmitter } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild, Output, EventEmitter, Input } from '@angular/core';
 import * as handTrack from 'handtrackjs';
 import { PredictionEvent } from '../prediction-event';
 
@@ -8,6 +8,8 @@ import { PredictionEvent } from '../prediction-event';
   styleUrls: ['./handtracker.component.css']
 })
 export class HandtrackerComponent implements OnInit {
+  @Input() move: string;
+
   @Output() onPrediction = new EventEmitter<PredictionEvent>();
   @ViewChild('htvideo') video: ElementRef;
   
