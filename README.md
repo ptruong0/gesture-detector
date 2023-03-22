@@ -29,8 +29,9 @@ N/A
 
 5. Is there anything special we need to know in order to run your code?
 
-Pointing two fingers for Scissors may sometimes not be accurate; pointing one finger has better accuracy.
-It may be better to watch the video demo here (includes timestamps): https://www.loom.com/share/6abe721421b74409ac611460340fc8a9
+- ```npm i --force``` may be for installation
+- Pointing two fingers for Scissors may sometimes not be accurate; pointing one finger has better accuracy.
+- It may be better to watch the video demo here (includes timestamps): https://www.loom.com/share/6abe721421b74409ac611460340fc8a9
 
 
 --Aim for no more than two sentences for each of the following questions.--
