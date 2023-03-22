@@ -1,9 +1,11 @@
-
-<div class="videobox">
-<video id="htvideo" #htvideo name="htvideo" autoplay="autoplay"></video>
-<h3>{{move}}</h3>
-</div>
-<div>
-<button (click)="startDetection()">Start</button>
-<button (click)="stopDetection()">Stop</button>
+<div class="d-flex flex-column justify-content-start align-items-center">
+  <div class="videobox">
+    <video id="htvideo" #htvideo name="htvideo" autoplay="autoplay"></video>
+    <h3>{{move}}</h3>
+  </div>
+  <div class="pt-2">
+    <button class="btn btn-outline-success align-self-stretch" (click)="startDetection()">Start Camera</button>
+    <span class="px-2"></span>
+    <button class="btn btn-outline-danger align-self-stretch" (click)="stopDetection()">Stop Camera</button>
+  </div>
 </div>

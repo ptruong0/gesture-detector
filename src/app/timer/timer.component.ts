@@ -16,6 +16,4 @@ export class TimerComponent {
 
   ngOnInit(): void {
   }
-  
-  
 }

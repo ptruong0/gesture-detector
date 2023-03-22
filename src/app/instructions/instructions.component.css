@@ -1,0 +1,7 @@
+.instructions-box {
+  background-color: rgb(233, 233, 233);
+  max-width: 1000px;
+  padding: 40px;
+  margin: 40px;
+  border-radius: 20px;
+}

@@ -1,8 +1,7 @@
 
 .videobox{
-    border: 3px solid #0063FF;
-    border-color: #0063FF;
-    width: 400px;
+    border: 3px solid cornflowerblue;
+    width: 500px;
     height: 400px;
     display: flex;
     flex-direction: column;

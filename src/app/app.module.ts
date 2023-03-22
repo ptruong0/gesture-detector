@@ -8,6 +8,12 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { HandtrackerComponent } from './handtracker/handtracker.component';
 import { OpponentComponent } from './opponent/opponent.component';
 import { TimerComponent } from './timer/timer.component';
+import { InstructionsComponent } from './instructions/instructions.component';
+
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import {NgToastModule} from 'ng-angular-popup';
+
+
 
 @NgModule({
   declarations: [
@@ -16,11 +22,14 @@ import { TimerComponent } from './timer/timer.component';
     HomePageComponent,
     HandtrackerComponent,
     OpponentComponent,
-    TimerComponent
+    TimerComponent,
+    InstructionsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatSlideToggleModule,
+    NgToastModule
   ],
   providers: [],
   bootstrap: [AppComponent]

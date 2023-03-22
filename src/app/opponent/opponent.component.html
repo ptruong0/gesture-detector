@@ -1,5 +1,6 @@
 <div class="box">
   <div class="d-flex flex-column p-2 align-items-center">
+    <!-- move image and move text -->
     <div *ngIf="move == 'Rock'">
       <img src="assets/rock.jpg" class="opp-image"/>
     </div>
@@ -8,6 +9,18 @@
     </div>
     <div *ngIf="move == 'Scissors'">
       <img src="assets/scissors.jpg" class="opp-image"/>
+    </div>
+    <div *ngIf="move == 'Double Rock'" class="d-flex p-2 justify-content-center">
+      <img src="assets/rock.jpg" class="opp-double-image"/>
+      <img src="assets/rock.jpg" class="opp-double-image"/>
+    </div>
+    <div *ngIf="move == 'Double Paper'" class="d-flex p-2 justify-content-center">
+      <img src="assets/paper.png" class="opp-double-image"/>
+      <img src="assets/paper.png" class="opp-double-image"/>
+    </div>
+    <div *ngIf="move == 'Double Scissors'" class="d-flex p-2 justify-content-center">
+      <img src="assets/scissors.jpg" class="opp-double-image"/>
+      <img src="assets/scissors.jpg" class="opp-double-image"/>
     </div>
     <h4>{{move}}</h4>
   </div>
