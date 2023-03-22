@@ -29,7 +29,7 @@ N/A
 
 5. Is there anything special we need to know in order to run your code?
 
-- ```npm i --force``` may be for installation
+- ```npm i --force``` may be needed for installation
 - Pointing two fingers for Scissors may sometimes not be accurate; pointing one finger has better accuracy.
 - It may be better to watch the video demo here (includes timestamps): https://www.loom.com/share/6abe721421b74409ac611460340fc8a9
 
